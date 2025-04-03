@@ -26,10 +26,6 @@ public class EmployeePensionsPlanningApp {
         employeeList.add(e4);
 
         List<PensionPlan> pensionPlanList = new ArrayList<>();
-//        PensionPlan p1 = new PensionPlan("EX1089");
-//        PensionPlan p2 = new PensionPlan("SM2307");
-//        pensionPlanList.add(p1);
-//        pensionPlanList.add(p2);
 
         List<EmployeePension> employeePensionList = new ArrayList<>();
         EmployeePension ep1 = new EmployeePension(e1, new PensionPlan("EX1089", LocalDate.of(2023,1,17), 100.00));
